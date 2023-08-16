@@ -12,7 +12,7 @@ import AddUser from "./AddUser";
 const Dashboard = () => {
   const dispatch = useDispatch();
   return (
-    <div className="h-full w-full xl:w-4/5">
+    <div className="w-full xl:w-4/5">
       <div className="py-3 px-7 bg-white flex gap-5 items-center">
         <button className="xl:hidden py-1 px-2 text-white bg-sky-950 rounded" onClick={() => dispatch(triggerNavbar(true))}>
           <RxHamburgerMenu />
@@ -32,7 +32,7 @@ const Dashboard = () => {
         <AddUser />
       </div>
 
-      <div className="w-full mx-auto h-[460px] bg-white px-1 py-5 mb-4">
+      <div className="w-full mx-auto h-screen xl:h-[500px] bg-white px-1 py-5 mb-4">
         <div className="md:w-[90%] mx-auto rounded-md">
           <Navigation />
           <Table />

@@ -5,7 +5,7 @@ import EditUser from "./EditUser";
 const Table = () => {
   const [dataUsers, setDataUser] = [dataUser];
   return (
-    <div className="overflow-auto max-h-[300px]">
+    <div className="overflow-auto max-h-[550px] xl:max-h-[300px] border">
       <table className="w-[700px] lg:w-full">
         <thead className="bg-sky-950">
           <tr className="text-left text-white text-sm">

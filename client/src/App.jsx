@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div className="mx-auto max-w-[1380px] min-h-[600px] flex relative xl:static">
+    <div className="mx-auto max-w-[1380px] min-h-[600px] flex ">
       <Navbar />
       <Dashboard />
     </div>
