@@ -9,7 +9,7 @@ const Navbar = () => {
   const navbar = useSelector((state) => state.navbar.button);
   const dispatch = useDispatch();
   return (
-    <div id="navbar" className={`bg-sky-950 w-[300px] xl:w-1/5 xl:left-0 absolute z-50 xl:static bottom-0 top-0 ${navbar ? "left-0" : "-left-full"} transition-all`}>
+    <div id="navbar" className={`bg-sky-950 w-[300px] xl:w-1/5 xl:left-0 fixed z-50 xl:static bottom-0 top-0 ${navbar ? "left-0" : "-left-full"} transition-all`}>
       <div className="mb-10 p-5 flex flex-col gap-2">
         <img className="w-10" src={logo} alt="logo" />
         <h2 className="text-white">Yoseph Duna</h2>

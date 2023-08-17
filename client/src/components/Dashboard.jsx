@@ -32,10 +32,12 @@ const Dashboard = () => {
         <AddUser />
       </div>
 
-      <div className="w-full mx-auto h-screen xl:h-[500px] bg-white px-1 py-5 mb-4">
-        <div className="md:w-[90%] mx-auto rounded-md">
-          <Navigation />
-          <Table />
+      <div className="bg-slate-100 flex justify-center items-center">
+        <div className="bg-white w-[90%] h-[95%] rounded-md flex justify-center items-center">
+          <div className="w-[90%]">
+            <Navigation />
+            <Table />
+          </div>
         </div>
       </div>
 

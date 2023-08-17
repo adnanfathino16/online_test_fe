@@ -3,9 +3,11 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div className="mx-auto max-w-[1380px] min-h-[600px] flex ">
-      <Navbar />
-      <Dashboard />
+    <div className="h-screen flex justify-center">
+      <div className="border container flex">
+        <Navbar />
+        <Dashboard />
+      </div>
     </div>
   );
 };

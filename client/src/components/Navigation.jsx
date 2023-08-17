@@ -3,7 +3,7 @@ import { RiFilter2Line } from "react-icons/ri";
 
 const Navigation = () => {
   return (
-    <>
+    <div className="pt-5">
       <div className="relative p-2 w-full flex gap-2 bg-gray-50 mb-5 rounded-md">
         <label htmlFor="search" className="absolute left-5 top-4 text-slate-400 cursor-pointer">
           <BsSearch className="w-3" />
@@ -30,7 +30,7 @@ const Navigation = () => {
           <li>Bank Principal</li>
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 

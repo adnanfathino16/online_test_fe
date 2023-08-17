@@ -5,8 +5,8 @@ import EditUser from "./EditUser";
 const Table = () => {
   const [dataUsers, setDataUser] = [dataUser];
   return (
-    <div className="overflow-auto max-h-[550px] xl:max-h-[300px] border">
-      <table className="w-[700px] lg:w-full">
+    <div className="bg-violet-200 lg:h-[370px] overflow-y-auto">
+      <table className="w-full">
         <thead className="bg-sky-950">
           <tr className="text-left text-white text-sm">
             <td className="py-2 px-3 rounded-tl-md">No.</td>
@@ -19,7 +19,7 @@ const Table = () => {
         </thead>
         <tbody className="text-left text-xs">
           {dataUsers.map((user, index) => (
-            <tr className={`${index % 2 === 0 ? "bg-slate-200" : ""}`} key={index}>
+            <tr className={`${index % 2 === 0 ? "bg-slate-200" : "bg-white"}`} key={index}>
               <td className="py-2 px-3">{index + 1}</td>
               <td className="py-2 px-3">{user.name}</td>
               <td className="py-2 px-3">{user.office}</td>
