@@ -4,11 +4,11 @@ import { RiFilter2Line } from "react-icons/ri";
 const Navigation = () => {
   return (
     <div className="pt-5">
-      <div className="relative p-2 w-full flex gap-2 bg-gray-50 mb-5 rounded-md">
+      <div className="relative p-2 flex gap-2 bg-gray-50 mb-5 rounded-md">
         <label htmlFor="search" className="absolute left-5 top-4 text-slate-400 cursor-pointer">
           <BsSearch className="w-3" />
         </label>
-        <input id="search" className="flex-1 border-solid border-2 border-slate-300 outline-none py-1 pl-8 text-sm rounded-md" type="search" placeholder="Enter Keyword" />
+        <input id="search" className="w-full border-solid border-2 border-slate-300 outline-none py-1 pl-8 text-sm rounded-md" type="search" placeholder="Enter Keyword" />
         <button className="flex gap-1 items-center py-1 px-3 border-solid border-2 border-slate-300 bg-white rounded-md text-sm font-semibold">
           <RiFilter2Line />
           Filters
